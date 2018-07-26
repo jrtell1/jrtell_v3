@@ -1,24 +1,26 @@
 <template>
-  <section class="container">
-    <div>
-      <h1 class="title">
-        John-Robin Tell
-      </h1>
-      <h2 class="subtitle">
-        Developer
-      </h2>
-      <div class="links">
-        <a
-          href="https://www.linkedin.com/in/john-robin-tell-b8bb235b/"
-          target="_blank"
-          class="button--grey">LinkedIn</a>
-        <a
-          href="https://github.com/john-robin"
-          target="_blank"
-          class="button--grey">GitHub</a>
+  <div>
+    <section class="startpage-hero">
+      <div>
+        <h1 class="title is-size-1-mobile">
+          John-Robin Tell
+        </h1>
+        <h2 class="subtitle is-size-3-mobile">
+          Developer
+        </h2>
+        <div class="links">
+          <a
+            href="https://www.linkedin.com/in/john-robin-tell-b8bb235b/"
+            target="_blank"
+            class="button--grey">LinkedIn</a>
+          <a
+            href="https://github.com/john-robin"
+            target="_blank"
+            class="button--grey">GitHub</a>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 </template>
 
 <script>
@@ -32,7 +34,7 @@ export default {
 </script>
 
 <style>
-.container {
+.startpage-hero {
   min-height: 100vh;
   display: flex;
   justify-content: center;
