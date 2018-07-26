@@ -11,7 +11,7 @@
         <a
           href="https://www.linkedin.com/in/john-robin-tell-b8bb235b/"
           target="_blank"
-          class="button--green">LinkedIn</a>
+          class="button--grey">LinkedIn</a>
         <a
           href="https://github.com/john-robin"
           target="_blank"
