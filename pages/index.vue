@@ -1,20 +1,19 @@
 <template>
   <section class="container">
     <div>
-      <app-logo/>
       <h1 class="title">
-        jrtell
+        John-Robin Tell
       </h1>
       <h2 class="subtitle">
-        JRTell homepage
+        Developer
       </h2>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
+          href="https://www.linkedin.com/in/john-robin-tell-b8bb235b/"
           target="_blank"
-          class="button--green">Documentation</a>
+          class="button--green">LinkedIn</a>
         <a
-          href="https://github.com/nuxt/nuxt.js"
+          href="https://github.com/john-robin"
           target="_blank"
           class="button--grey">GitHub</a>
       </div>
@@ -39,6 +38,7 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
+  background: url('http://res.cloudinary.com/jrtell/image/upload/c_scale,fl_progressive,q_auto,w_1920/v1532632023/bg.jpg');
 }
 
 .title {
@@ -53,7 +53,7 @@ export default {
 .subtitle {
   font-weight: 300;
   font-size: 42px;
-  color: #526488;
+  color: #273143;
   word-spacing: 5px;
   padding-bottom: 15px;
 }
