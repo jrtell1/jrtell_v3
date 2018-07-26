@@ -2,9 +2,9 @@
   <nav class="navbar is-fixed-top is-dark" role="navigation" aria-label="main-navigation">
     <div class="navbar-menu is-active">
       <div class="navbar-end">
-        <router-link class="navbar-item" to="/">Home</router-link>
-        <router-link class="navbar-item" to="/projects">Projects</router-link>
-        <router-link class="navbar-item" to="/hire">Hire me</router-link>
+        <nuxt-link class="navbar-item" to="/">Home</nuxt-link>
+        <nuxt-link class="navbar-item" to="/projects">Projects</nuxt-link>
+        <nuxt-link class="navbar-item" to="/hire">Hire me</nuxt-link>
       </div>
     </div>
   </nav>
