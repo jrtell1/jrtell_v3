@@ -6,7 +6,7 @@
           John-Robin Tell
         </h1>
         <h2 class="subtitle is-size-3-mobile">
-          Developer
+          Fullstack Developer
         </h2>
         <div class="links">
           <a
