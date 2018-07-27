@@ -24,7 +24,7 @@
     <section class="section has-background-light">
       <div class="container">
         <h2 class="title has-text-centered subtitle"><i>Simplicity</i></h2>
-        <h3 class="title has-text-centered">Is what I strive for</h3>
+        <h3 class="title has-text-centered">Is my motto and what I strive for</h3>
       </div>
     </section>
 
