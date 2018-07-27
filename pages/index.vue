@@ -2,7 +2,7 @@
   <div>
     <section class="startpage-hero">
       <div>
-        <h1 class="title is-size-1-mobile">
+        <h1 class="main-title is-size-1-mobile">
           John-Robin Tell
         </h1>
         <h2 class="subtitle is-size-3-mobile">
@@ -18,6 +18,19 @@
             target="_blank"
             class="button--grey">GitHub</a>
         </div>
+      </div>
+    </section>
+
+    <section class="section has-background-light">
+      <div class="container">
+        <h2 class="title has-text-centered subtitle"><i>Simplicity</i></h2>
+        <h3 class="title has-text-centered">Is what I strive for</h3>
+      </div>
+    </section>
+
+    <section class="section has-background-dark">
+      <div class="container">
+        <h2 class="title has-text-centered subtitle has-text-white">Latest Projects</h2>
       </div>
     </section>
   </div>
@@ -44,7 +57,7 @@ export default {
   background-attachment: fixed;
 }
 
-.title {
+.main-title {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
   display: block;
   font-weight: 300;
