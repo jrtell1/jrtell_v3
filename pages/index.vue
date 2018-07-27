@@ -80,7 +80,7 @@
           <div class="column is-narrow">
             <div class="buttons">
               <nuxt-link class="button is-primary is-large is-outlined" to="/projects">More projects</nuxt-link>
-              <nuxt-link class="button is-primary is-large is-outlined" to="/projects">Hire me</nuxt-link>
+              <nuxt-link class="button is-primary is-large is-outlined" to="/hire">Hire me</nuxt-link>
             </div>
           </div>
         </div>
