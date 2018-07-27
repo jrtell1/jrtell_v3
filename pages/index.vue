@@ -35,7 +35,7 @@
     </section>
 
     <section class="section has-background-grey-darker is-paddingless">
-      <div class="project">
+      <div class="project project-reverse">
         <div class="project-text">
           <h2 class="title has-text-white">Nordland</h2>
           <div class="content has-text-white">
@@ -47,7 +47,7 @@
             <span class="tag is-info">Webpack</span>
             <span class="tag is-info">Socket.io</span>
             <span class="tag is-success">Node.js</span>
-            <span class="tag is-link">Bulma</span>
+            <span class="tag is-primary">Bulma</span>
             <span class="tag is-danger">Sass</span>
           </div>
         </div>
@@ -56,11 +56,11 @@
     </section>
 
     <section class="section has-background-grey-dark is-paddingless">
-      <div class="project project-reverse">
+      <div class="project">
         <div class="project-text">
           <h2 class="title has-text-white">Airsoft</h2>
           <div class="content has-text-white">
-            Eventing site - A project to gather all of Sweden's airsoft events in one place.
+            Eventing site - A project to gather all of Sweden's airsoft events in one place. Built as a PWA (Progressive Web App).
           </div>
           <div class="tags">
             <span class="tag is-success">VueJS</span>
@@ -125,13 +125,13 @@
 
   .project-text {
     width: 60%;
-    order: 2;
+    order: 1;
     padding: 0 4em;
   }
 
   .project-image {
     width: 40%;
-    order: 1;
+    order: 2;
   }
 </style>
 
