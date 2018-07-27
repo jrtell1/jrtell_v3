@@ -28,50 +28,110 @@
       </div>
     </section>
 
-    <section class="section has-background-dark">
+    <section class="section has-background-grey-dark">
       <div class="container">
         <h2 class="title has-text-centered subtitle has-text-white">Latest Projects</h2>
+      </div>
+    </section>
+
+    <section class="section has-background-grey-darker is-paddingless">
+      <div class="project">
+        <div class="project-text">
+          <h2 class="title has-text-white">Nordland</h2>
+          <div class="content has-text-white">
+            A browser RPG kind of game, with an emphasis on Player versus Player combat in real-time with the help of Websockets.
+          </div>
+          <div class="tags">
+            <span class="tag is-success">VueJS</span>
+            <span class="tag is-danger">Lumen</span>
+            <span class="tag is-info">Webpack</span>
+            <span class="tag is-info">Socket.io</span>
+            <span class="tag is-success">Node.js</span>
+            <span class="tag is-link">Bulma</span>
+            <span class="tag is-danger">Sass</span>
+          </div>
+        </div>
+        <img class="project-image" src="http://res.cloudinary.com/jrtell/image/upload/c_scale,f_auto,q_auto,w_850/v1532700679/jrtell/game_screenshot.png">
+      </div>
+    </section>
+
+    <section class="section has-background-grey-dark is-paddingless">
+      <div class="project project-reverse">
+        <div class="project-text">
+          <h2 class="title has-text-white">Airsoft</h2>
+          <div class="content has-text-white">
+            Eventing site - A project to gather all of Sweden's airsoft events in one place.
+          </div>
+          <div class="tags">
+            <span class="tag is-success">VueJS</span>
+            <span class="tag is-danger">Laravel</span>
+            <span class="tag is-info">Webpack</span>
+            <span class="tag is-danger">Sass</span>
+            <span class="tag is-primary">Bootstrap 4</span>
+          </div>
+        </div>
+        <img class="project-image" src="http://res.cloudinary.com/jrtell/image/upload/c_scale,f_auto,q_auto,w_850/v1532702339/jrtell/vanilla.jpg">
       </div>
     </section>
   </div>
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
+  import AppLogo from '~/components/AppLogo.vue'
 
-export default {
-  components: {
-    AppLogo
+  export default {
+    components: {
+      AppLogo
+    }
   }
-}
 </script>
 
 <style>
-.startpage-hero {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background: url('http://res.cloudinary.com/jrtell/image/upload/c_scale,fl_progressive,q_auto,w_1920/v1532632023/bg.jpg') center top;
-  background-attachment: fixed;
-}
+  .startpage-hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('http://res.cloudinary.com/jrtell/image/upload/c_scale,fl_progressive,q_auto,w_1920/v1532632023/jrtell/bg.jpg') center top;
+    background-attachment: fixed;
+  }
 
-.main-title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
+  .main-title {
+    font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    display: block;
+    font-weight: 300;
+    font-size: 100px;
+    color: #35495e;
+    letter-spacing: 1px;
+  }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #273143;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
+  .subtitle {
+    font-weight: 300;
+    font-size: 42px;
+    color: #273143;
+    word-spacing: 5px;
+    padding-bottom: 15px;
+  }
+
+  .project {
+    display: flex;
+    align-items: center;
+  }
+
+  .project-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .project-text {
+    width: 60%;
+    order: 2;
+    padding: 0 4em;
+  }
+
+  .project-image {
+    width: 40%;
+    order: 1;
+  }
 </style>
 
