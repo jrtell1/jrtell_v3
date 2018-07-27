@@ -8,7 +8,7 @@
         <h2 class="subtitle is-size-3-mobile">
           Fullstack Developer
         </h2>
-        <div class="links">
+        <div>
           <a
             href="https://www.linkedin.com/in/john-robin-tell-b8bb235b/"
             target="_blank"
@@ -58,10 +58,6 @@ export default {
   color: #273143;
   word-spacing: 5px;
   padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
 }
 </style>
 
