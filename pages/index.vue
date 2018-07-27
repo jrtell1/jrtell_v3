@@ -73,6 +73,19 @@
         </div>
       </div>
     </section>
+
+    <section class="section has-background-light">
+      <div class="container">
+        <div class="columns is-centered is-mobile">
+          <div class="column is-narrow">
+            <div class="buttons">
+              <nuxt-link class="button is-primary is-large is-outlined" to="/projects">More projects</nuxt-link>
+              <nuxt-link class="button is-primary is-large is-outlined" to="/projects">Hire me</nuxt-link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
