@@ -41,6 +41,7 @@ export default {
   align-items: center;
   text-align: center;
   background: url('http://res.cloudinary.com/jrtell/image/upload/c_scale,fl_progressive,q_auto,w_1920/v1532632023/bg.jpg') center top;
+  background-attachment: fixed;
 }
 
 .title {
