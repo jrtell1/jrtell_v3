@@ -20,7 +20,8 @@ module.exports = {
   loading: { color: '#3B8070' },
 
   css: [
-    'bulma'
+    'bulma',
+    'assets/main.scss'
   ],
 
   /*
@@ -40,6 +41,6 @@ module.exports = {
         })
       }
     }
-  }
+  };
 }
 
