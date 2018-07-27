@@ -79,7 +79,6 @@
         <div class="columns is-centered is-mobile">
           <div class="column is-narrow">
             <div class="buttons">
-              <nuxt-link class="button--grey" to="/projects">More projects</nuxt-link>
               <nuxt-link class="button--grey" to="/hire">Hire me</nuxt-link>
             </div>
           </div>
