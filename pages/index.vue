@@ -35,7 +35,8 @@
     </section>
 
     <section class="section has-background-grey-darker is-paddingless">
-      <div class="project project-reverse">
+      <div class="project">
+        <img class="project-image" src="http://res.cloudinary.com/jrtell/image/upload/c_scale,f_auto,q_auto,w_850/v1532700679/jrtell/game_screenshot.png">
         <div class="project-text">
           <h2 class="title has-text-white">Nordland</h2>
           <div class="content has-text-white">
@@ -51,12 +52,12 @@
             <span class="tag is-danger">Sass</span>
           </div>
         </div>
-        <img class="project-image" src="http://res.cloudinary.com/jrtell/image/upload/c_scale,f_auto,q_auto,w_850/v1532700679/jrtell/game_screenshot.png">
       </div>
     </section>
 
     <section class="section has-background-grey-dark is-paddingless">
-      <div class="project">
+      <div class="project project-reverse">
+        <img class="project-image" src="http://res.cloudinary.com/jrtell/image/upload/c_scale,f_auto,q_auto,w_850/v1532702339/jrtell/vanilla.jpg">
         <div class="project-text">
           <h2 class="title has-text-white">Airsoft</h2>
           <div class="content has-text-white">
@@ -70,7 +71,6 @@
             <span class="tag is-primary">Bootstrap 4</span>
           </div>
         </div>
-        <img class="project-image" src="http://res.cloudinary.com/jrtell/image/upload/c_scale,f_auto,q_auto,w_850/v1532702339/jrtell/vanilla.jpg">
       </div>
     </section>
   </div>
@@ -86,14 +86,14 @@
   }
 </script>
 
-<style>
+<style lang="scss">
   .startpage-hero {
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: url('http://res.cloudinary.com/jrtell/image/upload/c_scale,fl_progressive,q_auto,w_1920/v1532632023/jrtell/bg.jpg') center top;
+    background: url('http://res.cloudinary.com/jrtell/image/upload/c_scale,fl_progressive,q_auto,w_1920/v1532632023/jrtell/bg.jpg') center top no-repeat;
     background-attachment: fixed;
   }
 
@@ -117,6 +117,10 @@
   .project {
     display: flex;
     align-items: center;
+
+    @media screen and (max-width: 992px) {
+      display: block;
+    }
   }
 
   .project-reverse {
@@ -125,13 +129,21 @@
 
   .project-text {
     width: 60%;
-    order: 1;
-    padding: 0 4em;
+    order: 2;
+    padding: 2em 4em;
+
+    @media screen and (max-width: 992px) {
+      width: 100%;
+    }
   }
 
   .project-image {
     width: 40%;
-    order: 2;
+    order: 1;
+
+    @media screen and (max-width: 992px) {
+      width: 100%;
+    }
   }
 </style>
 
