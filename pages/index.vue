@@ -50,12 +50,6 @@
               <p>Progressive Web Apps</p>
             </div>
           </div>
-          <div class="level-item has-text-centered">
-            <div>
-              <p class="title">Mobile first</p>
-              <p>Responsive design</p>
-            </div>
-          </div>
         </nav>
       </div>
     </section>
