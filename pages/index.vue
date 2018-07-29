@@ -62,7 +62,7 @@
 
     <section class="section has-background-grey-darker is-paddingless">
       <div class="project">
-        <img class="project-image" src="http://res.cloudinary.com/jrtell/image/upload/c_scale,f_auto,q_auto,w_850,fl_progressive/v1532700679/jrtell/game_screenshot.png">
+        <img class="project-image" src="https://res.cloudinary.com/jrtell/image/upload/c_scale,f_auto,q_auto,w_850,fl_progressive/v1532700679/jrtell/game_screenshot.png">
         <div class="project-text">
           <h2 class="title has-text-white">Nordland</h2>
           <div class="content has-text-white">
@@ -83,7 +83,7 @@
 
     <section class="section has-background-grey-dark is-paddingless">
       <div class="project project-reverse">
-        <img class="project-image" src="http://res.cloudinary.com/jrtell/image/upload/c_scale,f_auto,q_auto,w_850,fl_progressive/v1532702339/jrtell/vanilla.jpg">
+        <img class="project-image" src="https://res.cloudinary.com/jrtell/image/upload/c_scale,f_auto,q_auto,w_850,fl_progressive/v1532702339/jrtell/vanilla.jpg">
         <div class="project-text">
           <h2 class="title has-text-white">Airsoft</h2>
           <div class="content has-text-white">
@@ -119,7 +119,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: url('http://res.cloudinary.com/jrtell/image/upload/c_scale,fl_progressive,q_auto,w_1920/v1532632023/jrtell/bg.jpg') center top no-repeat;
+    background: url('https://res.cloudinary.com/jrtell/image/upload/c_scale,fl_progressive,q_auto,w_1920/v1532632023/jrtell/bg.jpg') center top no-repeat;
     background-attachment: fixed;
   }
 
