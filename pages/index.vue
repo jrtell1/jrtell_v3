@@ -28,6 +28,38 @@
       </div>
     </section>
 
+    <section class="section has-background-grey-lighter">
+      <div class="container">
+        <h2 class="title has-text-centered subtitle">Technologies I specify in</h2>
+        <nav class="level">
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="title">VueJS</p>
+              <p>A frontend framework written in <strong>JavaScript</strong></p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="title">Laravel</p>
+              <p>A backend <strong>PHP</strong> framework</p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="title">PWA</p>
+              <p>Progressive Web Apps</p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="title">Mobile first</p>
+              <p>Responsive design</p>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+
     <section class="section has-background-grey-dark">
       <div class="container">
         <h2 class="title has-text-centered subtitle has-text-white">Latest Projects</h2>
