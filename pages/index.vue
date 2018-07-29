@@ -21,10 +21,10 @@
       </div>
     </section>
 
-    <section class="section section-spacing has-background-primary">
+    <section class="section section-spacing has-background-dark-blue">
       <div class="container">
-        <h2 class="title has-text-centered subtitle"><i>Simplicity</i></h2>
-        <h3 class="title has-text-centered">Is my motto and what I strive for</h3>
+        <h2 class="title has-text-centered subtitle has-text-white"><i>Simplicity</i></h2>
+        <h3 class="title has-text-centered has-text-white">Is my motto and what I strive for</h3>
       </div>
     </section>
 
@@ -144,6 +144,10 @@
     color: #273143;
     word-spacing: 5px;
     padding-bottom: 15px;
+  }
+
+  .has-background-dark-blue {
+    background-color: #35495e;
   }
 
   .section-spacing {
