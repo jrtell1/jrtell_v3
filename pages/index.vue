@@ -73,18 +73,6 @@
         </div>
       </div>
     </section>
-
-    <section class="section">
-      <div class="container">
-        <div class="columns is-centered is-mobile">
-          <div class="column is-narrow">
-            <div class="buttons">
-              <nuxt-link class="button--grey" to="/projects">More projects</nuxt-link>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
   </div>
 </template>
 
