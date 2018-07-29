@@ -21,14 +21,14 @@
       </div>
     </section>
 
-    <section class="section has-background-light">
+    <section class="section has-background-primary">
       <div class="container">
         <h2 class="title has-text-centered subtitle"><i>Simplicity</i></h2>
         <h3 class="title has-text-centered">Is my motto and what I strive for</h3>
       </div>
     </section>
 
-    <section class="section has-background-grey-lighter">
+    <section class="section has-background-light">
       <div class="container">
         <h2 class="title has-text-centered subtitle">Technologies I specify in</h2>
         <nav class="level">
