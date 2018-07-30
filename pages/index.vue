@@ -119,7 +119,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: url('https://res.cloudinary.com/jrtell/image/upload/c_scale,fl_progressive,q_auto,w_1920/v1532632023/jrtell/bg.jpg') center top no-repeat;
+    background: url('https://res.cloudinary.com/jrtell/image/upload/c_crop,fl_progressive,q_auto,w_1920,h_900/v1532632023/jrtell/bg.jpg') center top no-repeat;
+    background-size: cover;
     background-attachment: fixed;
   }
 
